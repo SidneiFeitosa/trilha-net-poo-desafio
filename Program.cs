@@ -3,7 +3,7 @@ using DesafioPOO.Models;
 Console.WriteLine("----------------------------------------");
 Console.WriteLine("Testes no Smartphone NOKIA");
 Console.WriteLine("----------------------------------------");
-Smartphone tel_nokia = new Nokia(numero: "88 99887766", modelo: "G11 Plus", imei: "00112233", memoria: 32);
+Smartphone tel_nokia = new Nokia(numero: "88 99889966", modelo: "G11 Plus", imei: "00112233", memoria: 32);
 tel_nokia.Ligar();
 tel_nokia.ReceberLigacao();
 tel_nokia.InstalarAplicativo("Instagram");
